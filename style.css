@@ -1,0 +1,44 @@
+#logo {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    /*background-color: chartreuse;*/
+}
+
+/*.search-container {
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    
+}*/
+form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+#searchBar {
+   /*background-color: hotpink;*/
+   grid-area: 1/2;
+   
+    
+}
+
+#searchButton {
+   /* background-color: rgb(173, 102, 224);*/
+    grid-area: 2/2;
+    justify-self: start;
+    
+    
+}
+
+#luckyButton {
+   /* background-color: lightblue; */
+    grid-area: 2/2;
+    justify-self: end;
+    
+}
